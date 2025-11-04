@@ -2,7 +2,7 @@
 # configuration in which nginx serves stactic files and comunicates with another
 # container on port 8080 that serves dynamic content using the wsgi interface.
 #
-FROM nginx:1.11
+FROM nginx:1.29.3
 
 
 # Nginx config
